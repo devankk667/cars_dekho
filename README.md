@@ -1,8 +1,8 @@
-# 🚗 CarDekho Price Prediction App
+# CarDekho Price Prediction App
 
 A machine learning-powered web application that predicts used car prices based on various features like brand, model, year, mileage, and more. Built with Python, Scikit-learn, and Streamlit.
 
-## ✨ Features
+## Features
 
 - **Accurate Price Prediction**: Utilizes a trained Random Forest model for reliable price estimation
 - **User-friendly Interface**: Simple and intuitive web interface built with Streamlit
@@ -10,12 +10,12 @@ A machine learning-powered web application that predicts used car prices based o
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices
 - **Sample Data**: Try the app with pre-loaded sample data
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - pip (Python package manager)
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -34,7 +34,7 @@ A machine learning-powered web application that predicts used car prices based o
    pip install -r requirements.txt
    ```
 
-## 📦 Required Packages
+## Required Packages
 
 All required packages are listed in `requirements.txt`:
 
@@ -47,7 +47,7 @@ matplotlib==3.7.2
 plotly==5.15.0
 ```
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 1. Ensure you have all the required packages installed
 2. Run the Streamlit app:
@@ -56,7 +56,7 @@ plotly==5.15.0
    ```
 3. Open your web browser and navigate to `http://localhost:8501`
 
-## 🧠 Model Details
+## Model Details
 
 The prediction model uses a Random Forest Regressor with the following features:
 - **Brand**: Car manufacturer (e.g., Maruti, Hyundai, Honda)
@@ -73,21 +73,19 @@ The prediction model uses a Random Forest Regressor with the following features:
 - **Car Age**: Calculated as current year - manufacturing year
 - **Luxury Brand**: Boolean indicating if the brand is considered luxury
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 The model has been evaluated with the following metrics:
-- R² Score: 0.92
-- Mean Absolute Error: ₹1,23,456
-- Root Mean Squared Error: ₹1,78,901
+- R² Score: 0.76
 
-## 📝 Usage
+## Usage
 
 1. Fill in the car details in the input form
 2. Click "Predict Price" to get the estimated price
 3. Use the "Load Sample Data" button to try with example values
 4. Adjust the sliders and dropdowns to see how different features affect the price
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 carsdekho_pred/
@@ -102,7 +100,7 @@ carsdekho_pred/
 └── README.md              # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -112,11 +110,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset provided by [CarDekho](https://www.cardekho.com/)
 - Built with ❤️ using Python and Streamlit
